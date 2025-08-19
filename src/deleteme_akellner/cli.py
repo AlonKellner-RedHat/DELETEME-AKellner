@@ -10,10 +10,11 @@ console = Console()
 
 
 @app.command()
-def main():
+def main() -> None:
     """Console script for deleteme_akellner."""
-    console.print("Replace this message by putting your code into "
-               "deleteme_akellner.cli.main")
+    console.print(
+        "Replace this message by putting your code into deleteme_akellner.cli.main"
+    )
     console.print("See Typer documentation at https://typer.tiangolo.com/")
     example()
 

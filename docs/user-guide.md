@@ -5,7 +5,8 @@
 Python Boilerplate contains all the boilerplate you need to create a Python package.
 
 ## 📖 Usage
-```
+
+```text
 import deleteme_akellner
 ```
 

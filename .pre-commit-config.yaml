@@ -26,13 +26,13 @@ repos:
         name: biomejs (.json, .js, .ts)
   - repo: local
     hooks:
-      - id: git-signoff
-        name: git signoff (commit message)
-        description: Adds a 'Signed-off-by:' trailer to the commit message.
-        entry: scripts/add-signoff.sh
-        language: script
-        always_run: true
-        stages: [prepare-commit-msg]
+      # - id: git-signoff
+      #   name: git signoff (commit message)
+      #   description: Adds a 'Signed-off-by:' trailer to the commit message.
+      #   entry: scripts/add-signoff.sh
+      #   language: script
+      #   always_run: true
+      #   stages: [prepare-commit-msg]
       - id: commitlint
         name: commitlint (commit message)
         description: check commit message adheres to

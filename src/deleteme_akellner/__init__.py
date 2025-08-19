@@ -4,5 +4,5 @@ from .__about__ import __version__
 from ._example import example
 
 __author__ = """Alon Kellner"""
-__email__ = 'akellner@redhat.com'
+__email__ = "akellner@redhat.com"
 __all__ = ["__version__", "example"]

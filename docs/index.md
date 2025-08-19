@@ -20,10 +20,10 @@ uv pip install -e .
 ```
 
 ### Basic Usage
-```
+
+```text
 import deleteme_akellner
 ```
-
 
 ## 📖 Advanced docs
 
