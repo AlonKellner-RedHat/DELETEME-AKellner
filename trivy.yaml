@@ -9,6 +9,7 @@ fs:
     - '**/htmlcov/'
     - '**/node_modules/'
   skip-files:
+    - '**/*.asc'
     - '**/*.pickle'
     - '**/*.pyspy'
     - '**/*mcp.json'
